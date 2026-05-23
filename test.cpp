@@ -152,7 +152,6 @@ public:
             ds[i].Nhap();
         }
     }
-    
 };
 
 int main()
