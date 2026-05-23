@@ -157,4 +157,8 @@ public:
 
 int main()
 {
+    int n;
+    cin >> n;
+    cout << "nhap doi bong: ";
+    return 0;
 }
