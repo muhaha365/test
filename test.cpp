@@ -135,6 +135,13 @@ public:
     }
 };
 
+class GiaiDau
+{
+private:
+    vector <DoiBong> ds;
+public:
+};
+
 int main()
 {
 }
