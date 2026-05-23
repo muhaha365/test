@@ -140,6 +140,19 @@ class GiaiDau
 private:
     vector <DoiBong> ds;
 public:
+    GiaiDau() {}
+    void nhapDsDoi()
+    {
+        int n;
+        cout << "So doi: ";
+        cin >> n;
+        ds.resize(n);
+        for(int i = 0; i < ds.size(); i++)
+        {
+            ds[i].Nhap();
+        }
+    }
+    
 };
 
 int main()
